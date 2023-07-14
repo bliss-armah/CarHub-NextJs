@@ -22,6 +22,7 @@ const SearchManufacturer = ({
             .includes(query.toLowerCase().replace(/\s+/g, ""))
         );
 
+        
   return (
     <div className="search-manufacturer">
       <Combobox value={manufacturer} onChange={setManufacturer}>
